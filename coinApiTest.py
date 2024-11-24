@@ -9,7 +9,7 @@ params = {
 
 res = requests.get(server_url + "/v1/ticker", params=params)
 print(res.json())
-print("-----")
+
 
 
 
