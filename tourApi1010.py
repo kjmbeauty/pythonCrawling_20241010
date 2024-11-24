@@ -78,4 +78,4 @@ result_df = pd.DataFrame(result, columns=["입국자국가","국가코드","입�
 print(result_df)
 result_df.to_csv("2024년_출입국자수.csv", index=False, encoding='cp949')
 
-print("-----")
+
